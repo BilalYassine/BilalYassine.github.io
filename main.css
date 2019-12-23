@@ -20,12 +20,7 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline; }
 
 .homepage {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
 body {
@@ -35,9 +30,21 @@ body {
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 44px;
-  color: white; }
+  color: white;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
 
 p {
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
-  color: white; }
+  color: white;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
