@@ -20,9 +20,12 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline; }
 
 .homepage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 body {
