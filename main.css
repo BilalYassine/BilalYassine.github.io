@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+body {
+  background-color: #242331;
+}
