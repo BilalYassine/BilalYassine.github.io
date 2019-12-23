@@ -19,13 +19,12 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-.homepage {
-
-}
 
 body {
   background-color: #242331; }
 
+.homepage {
+  text-align: center; }
 
 h1 {
   font-family: 'Quicksand', sans-serif;
@@ -33,18 +32,12 @@ h1 {
   color: white;
   width: 300px;
   height: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); }
+  diplay: inline-block; }
 
-p {
+.homepage-blurb {
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
   color: white;
   width: 600px;
   height: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); }
+  diplay: inline-block; }
