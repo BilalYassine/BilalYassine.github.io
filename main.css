@@ -34,9 +34,10 @@ body {
 
 h1 {
   font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
   color: white; }
 
 p {
   font-family: 'Nunito', sans-serif;
-  color: white;
-  font-size: 20px; }
+  font-size: 20px;
+  color: white; }
