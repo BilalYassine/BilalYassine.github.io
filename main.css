@@ -19,6 +19,25 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  text-decoration: underline;
+}
 
 body {
   background-color: #242331; }
@@ -39,6 +58,7 @@ h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
   color: white;
-  width: 600px;
+  width: 500px;
   height: auto;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 50px; }
