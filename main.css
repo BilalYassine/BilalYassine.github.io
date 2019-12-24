@@ -25,6 +25,7 @@ body {
 
 .homepage {
   text-align: center;
+  display: flex;
   position: center;
   max-width: 1000px;
   margin: auto;
