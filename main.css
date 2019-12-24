@@ -25,6 +25,7 @@ body {
 
 .homepage {
   text-align: center;
+  position: center;
   margin-top:50px;
   border: 1px transparent #000; }
 
