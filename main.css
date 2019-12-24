@@ -27,10 +27,7 @@ body {
   text-align: center;
   position: center;
   max-width: 1000px;
-  margin: 0;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  margin: auto;
   border: 1px transparent #000; }
 
 h1 {
