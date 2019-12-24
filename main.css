@@ -27,6 +27,7 @@ body {
   text-align: center;
   position: center;
   max-width: 1000px;
+  margin: auto;
   border: 1px transparent #000; }
 
 h1 {
