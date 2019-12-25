@@ -3,6 +3,8 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 
 anime.timeline({loop: false})
   .add({
+    delay: 100
+  }).add({
     targets: '.title .letter',
     scale: [4,1],
     opacity: [0,1],
@@ -18,11 +20,11 @@ anime.timeline({loop: false})
 
   anime.timeline({loop: false})
     .add({
-      delay: 1000
+      delay: 1100
     }).add({
       targets: '.homepage-blurb .letter',
       rotateY: [-90, 0],
-      duration: 1300,
+      duration: 1400,
       delay: (el, i) => 45 * i
     });
 
@@ -31,11 +33,11 @@ anime.timeline({loop: false})
 
     anime.timeline({loop: false})
       .add({
-        delay: 1000
+        delay: 1100
       }).add({
         targets: '.work .letter',
         rotateY: [-90, 0],
-        duration: 1300,
+        duration: 1400,
         delay: (el, i) => 45 * i
       });
 
@@ -44,11 +46,11 @@ anime.timeline({loop: false})
 
       anime.timeline({loop: false})
         .add({
-          delay: 1300
+          delay: 1400
         }).add({
           targets: '.projects .letter',
           rotateY: [-90, 0],
-          duration: 1600,
+          duration: 1700,
           delay: (el, i) => 45 * i
         });
 
@@ -57,11 +59,11 @@ anime.timeline({loop: false})
 
         anime.timeline({loop: false})
           .add({
-            delay: 1600
+            delay: 1700
           }).add({
             targets: '.education .letter',
             rotateY: [-90, 0],
-            duration: 1900,
+            duration: 2000,
             delay: (el, i) => 45 * i
           });
 
@@ -70,10 +72,10 @@ anime.timeline({loop: false})
 
           anime.timeline({loop: false})
             .add({
-              delay: 1900
+              delay: 2000
             }).add({
               targets: '.bio .letter',
               rotateY: [-90, 0],
-              duration: 2200,
+              duration: 2300,
               delay: (el, i) => 45 * i
             });

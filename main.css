@@ -46,12 +46,17 @@ body {
   line-height: 1em;
 }
 
-h2 {
+h4 {
   font-family: 'Quicksand', sans-serif;
   color: white;
-  height: auto;
   position: center;
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 1.5px #ffffff;
+  margin-right: -1px;
+  margin-left: -1px;
+  }
 
 .homepage-blurb {
   font-family: 'Nunito', sans-serif;
@@ -118,23 +123,29 @@ h2 {
 }
 
 nav ul {
-			margin-bottom: 0;
+      display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
       display: flex;
 			list-style: none;
-			padding-left: 0;
-			border: solid 2px #ffffff;
-      background: ;
-			border-radius: 5px;
+			padding: 0 0 0 0;
 		}
 
 			nav ul li {
 			  flex-grow: 100;
-        border-left: solid 2px #ffffff;
-				padding-left: 0;
 			}
 
         nav ul li:first-child {
 					border-left: 0;
+				}
+
+        nav ul li a {
+					display: block;
+					min-height: 1.75rem;
+					line-height: 1.75rem;
+					text-transform: uppercase;
+					letter-spacing: 0.1rem;
+					border-bottom: 0;
 				}
 
         nav ul li a:link {
@@ -148,23 +159,14 @@ nav ul {
         }
 
 				nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+
 					}
 
 				nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+
 					}
 
-		nav.use-middle:after {
-			content: '';
-			display: block;
-			position: absolute;
-			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
-			height: 100%;
-			background: #ffffff;
-		}
+
 
 		nav.use-middle ul li.is-middle {
 			border-left: 0;
@@ -173,7 +175,7 @@ nav ul {
 ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding-right: 100px;
 	}
 
 		ul.icons li {
@@ -186,9 +188,187 @@ ul.icons {
 			}
 
 				ul.icons li a:hover {
-	        background: white;
+
 				}
 
 				ul.icons li a:active {
-          background: white;
+
 				}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: center;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+      transform: scale(1.25);
+  }
+
+  /* Rectangle Out */
+  .work {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: transparent;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .work:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .work:hover, .work:focus, .work:active {
+    color: black;
+  }
+  .work:hover:before, .work:focus:before, .work:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .projects {
+    display: block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: transparent;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .projects:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .projects:hover, .work:focus, .work:active {
+    color: black;
+  }
+  .projects:hover:before, .work:focus:before, .work:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .education {
+    display: block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: transparent;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .education:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .education:hover, .work:focus, .work:active {
+    color: black;
+  }
+  .education:hover:before, .work:focus:before, .work:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .bio {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: transparent;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .bio:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .bio:hover, .work:focus, .work:active {
+    color: black;
+  }
+  .bio:hover:before, .work:focus:before, .work:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
