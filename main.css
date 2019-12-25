@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
 
+
 a:link {
   color: #FAEBD7;
   text-decoration: none;
@@ -23,20 +24,27 @@ a:active {
 body {
   background-color: #242331; }
 
+
 .homepage {
   text-align: center;
   position: center;
+  top: 50%;
+  transform: translate(0%, 100%);
   max-width: 1000px;
   margin: auto;
   border: 1px transparent #000; }
 
-h1 {
+.title {
   font-family: 'Quicksand', sans-serif;
-  font-size: 44px;
+  font-size: 3.5em;
   color: white;
-  width: auto;
-  height: auto;
-  display: inline-block; }
+  font-weight: 900;
+}
+
+.title .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 
 h2 {
   font-family: 'Quicksand', sans-serif;
@@ -50,7 +58,64 @@ h2 {
   font-size: 20px;
   color: white;
   margin-top: -30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  position: relative;
+  }
+
+.homepage-blurb .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.homepage-blurb .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.work .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.work .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.projects .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.projects .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.education .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.education .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.bio .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.bio .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
 
 nav ul {
 			margin-bottom: 0;
@@ -112,7 +177,7 @@ ul.icons {
 	}
 
 		ul.icons li {
-			display: inline;
+			display: inline-block;
 			padding: 0 0.75em 0 0;
 		}
 
