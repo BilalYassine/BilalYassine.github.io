@@ -12,17 +12,17 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: #f3e9dc;
   text-decoration: underline;
 }
 
 a:active {
-  color: white;
+  color: #f3e9dc;
   text-decoration: underline;
 }
 
 body {
-  background-color: #242331; }
+  background-color: #4B111B; }
 
 
 .homepage {
@@ -32,12 +32,12 @@ body {
   transform: translate(0%, 100%);
   max-width: 1000px;
   margin: auto;
-  border: 1px transparent #000; }
+}
 
 .title {
   font-family: 'Quicksand', sans-serif;
   font-size: 3.5em;
-  color: white;
+  color: #f3e9dc;
   font-weight: 900;
 }
 
@@ -48,12 +48,12 @@ body {
 
 h4 {
   font-family: 'Quicksand', sans-serif;
-  color: white;
+  color: #f3e9dc;
   position: center;
   display: inline-block;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: solid 1.5px #ffffff;
+  border: solid 1.5px #f3e9dc;
   margin-right: -1px;
   margin-left: -1px;
   }
@@ -61,7 +61,7 @@ h4 {
 .homepage-blurb {
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
-  color: white;
+  color: #f3e9dc;
   margin-top: -30px;
   margin-bottom: 30px;
   position: relative;
@@ -236,7 +236,7 @@ ul.icons {
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: #f3e9dc;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
@@ -247,7 +247,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .work:hover, .work:focus, .work:active {
-    color: black;
+    color: #4B111B;
   }
   .work:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
@@ -275,7 +275,7 @@ ul.icons {
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: #f3e9dc;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
@@ -286,7 +286,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .projects:hover, .work:focus, .work:active {
-    color: black;
+    color: #4B111B;
   }
   .projects:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
@@ -314,7 +314,7 @@ ul.icons {
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: #f3e9dc;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
@@ -325,7 +325,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .education:hover, .work:focus, .work:active {
-    color: black;
+    color: #4B111B;
   }
   .education:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
@@ -355,7 +355,7 @@ ul.icons {
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: #f3e9dc;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
@@ -366,7 +366,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .bio:hover, .work:focus, .work:active {
-    color: black;
+    color: #4B111B;
   }
   .bio:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
