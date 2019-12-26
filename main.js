@@ -1,6 +1,7 @@
 var textWrapper = document.querySelector('.title');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+// Homepage
 anime.timeline({loop: false})
   .add({
     delay: 100
@@ -20,11 +21,11 @@ anime.timeline({loop: false})
 
   anime.timeline({loop: false})
     .add({
-      delay: 1100
+      delay: 1250
     }).add({
       targets: '.homepage-blurb .letter',
       rotateY: [-90, 0],
-      duration: 1400,
+      duration: 1550,
       delay: (el, i) => 45 * i
     });
 
@@ -33,11 +34,11 @@ anime.timeline({loop: false})
 
     anime.timeline({loop: false})
       .add({
-        delay: 1100
+        delay: 1250
       }).add({
         targets: '.work .letter',
         rotateY: [-90, 0],
-        duration: 1400,
+        duration: 1550,
         delay: (el, i) => 45 * i
       });
 
@@ -46,11 +47,11 @@ anime.timeline({loop: false})
 
       anime.timeline({loop: false})
         .add({
-          delay: 1400
+          delay: 1550
         }).add({
           targets: '.projects .letter',
           rotateY: [-90, 0],
-          duration: 1700,
+          duration: 1850,
           delay: (el, i) => 45 * i
         });
 
@@ -59,11 +60,11 @@ anime.timeline({loop: false})
 
         anime.timeline({loop: false})
           .add({
-            delay: 1700
+            delay: 1850
           }).add({
             targets: '.education .letter',
             rotateY: [-90, 0],
-            duration: 2000,
+            duration: 2150,
             delay: (el, i) => 45 * i
           });
 
@@ -72,10 +73,10 @@ anime.timeline({loop: false})
 
           anime.timeline({loop: false})
             .add({
-              delay: 2000
+              delay: 2150
             }).add({
               targets: '.bio .letter',
               rotateY: [-90, 0],
-              duration: 2300,
+              duration: 2450,
               delay: (el, i) => 45 * i
             });
