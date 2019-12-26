@@ -46,9 +46,41 @@ body {
   margin: auto;
 }
 
-.crest img {
+.java img {
   height: 60px;
-  width: 40px;
+  width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.sudoku img {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  border-radius: 5%;
+}
+
+.platformer img {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  border-radius: 5%;
+}
+
+.spade img {
+  height: 60px;
+  width: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -74,7 +106,7 @@ h2 {
   font-size: 2em;
 }
 
-.block p {
+.block p, .block2 p, .block3 p, .block4 p {
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
   color: #f3e9dc;
@@ -90,7 +122,7 @@ h2 {
   word-wrap:break-word;
   }
 
-.block {
+.block, .block2, .block3, .block4 {
   border: solid 1.5px #f3e9dc;
   border-radius: 10px;
   box-shadow: 0 0 0 1px #f3e9dc;
@@ -165,13 +197,13 @@ nav ul {
   transform-origin: 0 0;
 }
 
-.backprojects .text-wrapper {
+.backwork .text-wrapper {
   position: relative;
   display: inline-block;
   overflow: hidden;
 }
 
-.backprojects .letter {
+.backwork .letter {
   display: inline-block;
   transform-origin: 0 0;
 }
@@ -209,7 +241,55 @@ nav ul {
   transform-origin: 0 0;
 }
 
-.crest {
+.blockh2b .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.blockh2b .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.blockh2c .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.blockh2c .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.blockh2d .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.blockh2d .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.java {
+  -webkit-animation: 3.5s ease 0s normal forwards 1 fadein;
+    animation: 3.5s ease 0s normal forwards 1 fadein;
+}
+
+.sudoku {
+  -webkit-animation: 3.5s ease 0s normal forwards 1 fadein;
+    animation: 3.5s ease 0s normal forwards 1 fadein;
+}
+
+.platformer {
+  -webkit-animation: 3.5s ease 0s normal forwards 1 fadein;
+    animation: 3.5s ease 0s normal forwards 1 fadein;
+}
+
+.spade {
   -webkit-animation: 3.5s ease 0s normal forwards 1 fadein;
     animation: 3.5s ease 0s normal forwards 1 fadein;
 }
