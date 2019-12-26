@@ -93,7 +93,7 @@ h2 {
 .block {
   border: solid 1.5px #f3e9dc;
   border-radius: 10px;
-  box-shadow: 0 0 0 4px #f3e9dc;
+  box-shadow: 0 0 0 1px #f3e9dc;
 }
 
 h4 {
