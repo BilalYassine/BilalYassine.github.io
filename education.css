@@ -110,6 +110,8 @@ nav ul {
       display: flex;
 			list-style: none;
 			padding: 0 0 0 0;
+      margin-top: -0.8%;
+      margin-bottom: -0.8%;
 		}
 
 			nav ul li {
@@ -214,33 +216,9 @@ nav ul {
     animation: 3.5s ease 0s normal forwards 1 fadein;
 }
 
-@keyframes fadein{
-    0% { opacity:0; }
-    80% { opacity:0; }
-    100% { opacity:1; }
-}
-
-@-webkit-keyframes fadein{
-    0% { opacity:0; }
-    80% { opacity:0; }
-    100% { opacity:1; }
-}
-
 .blockp {
   -webkit-animation: 3.5s ease 0s normal forwards 1 fadein;
     animation: 3.5s ease 0s normal forwards 1 fadein;
-}
-
-@keyframes fadein{
-    0% { opacity:0; }
-    80% { opacity:0; }
-    100% { opacity:1; }
-}
-
-@-webkit-keyframes fadein{
-    0% { opacity:0; }
-    80% { opacity:0; }
-    100% { opacity:1; }
 }
 
 .blockpp {
