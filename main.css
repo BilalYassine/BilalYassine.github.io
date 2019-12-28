@@ -33,7 +33,7 @@ a:active {
 }
 
 body {
-  background-color: #4B111B;
+  background-color: #001C55;
 }
 
 
@@ -259,7 +259,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .work:hover, .work:focus, .work:active {
-    color: #4B111B;
+    color: #001C55;
   }
   .work:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
@@ -298,7 +298,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .projects:hover, .work:focus, .work:active {
-    color: #4B111B;
+    color: #001C55;
   }
   .projects:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
@@ -337,7 +337,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .education:hover, .work:focus, .work:active {
-    color: #4B111B;
+    color: #001C55;
   }
   .education:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
@@ -378,7 +378,7 @@ ul.icons {
     transition-timing-function: ease-out;
   }
   .bio:hover, .work:focus, .work:active {
-    color: #4B111B;
+    color: #001C55;
   }
   .bio:hover:before, .work:focus:before, .work:active:before {
     -webkit-transform: scale(1);
