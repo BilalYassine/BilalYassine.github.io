@@ -46,9 +46,14 @@ body {
   margin: auto;
 }
 
+.profile {
+  max-width: 10%;
+  margin-bottom: -5%;
+}
+
 .profile img {
-  height: 160px;
-  width: 124px;
+  max-width: 100%;
+  height: auto;
   border-radius: 5%;
 }
 
@@ -265,7 +270,7 @@ nav ul {
 }
 
 .group {
-  margin-top: -1%;
+  margin-top: -15%;
 }
 
 .biotop {
